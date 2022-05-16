@@ -15,7 +15,7 @@ spec:
     targetRevision: HEAD
     path: nginx
     kustomize:
-      namePrefix: base-
+      namePrefix:
   destination:
     server: https://kubernetes.default.svc
     namespace: nginxns
